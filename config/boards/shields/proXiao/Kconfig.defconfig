@@ -16,6 +16,8 @@ if SHIELD_PROXIAO_LEFT || SHIELD_PROXIAO_RIGHT
 config ZMK_SPLIT
 	default y
 	
+endif
+
 if ZMK_DISPLAY
 
 config I2C
@@ -26,7 +28,5 @@ config SSD1306
 
 config SSD1306_REVERSE_MODE
 	default y
-
-endif
 
 endif
